@@ -1,0 +1,39 @@
+.portfolio-section {
+  padding: 4rem 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.portfolio-item {
+  background-color: #333;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio-item h3 {
+  margin: 0;
+}
+
+.portfolio-item p {
+  margin-top: 1rem;
+  color: #ddd;
+  font-size: 0.9rem;
+}
+
+.portfolio-item:hover {
+  background-color: #444;
+}
+
+.portfolio-item:hover h3 {
+  color: #61dafb;
+}
+

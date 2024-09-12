@@ -1,0 +1,20 @@
+header {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  nav a:hover {
+    color: #61dafb;
+  }
